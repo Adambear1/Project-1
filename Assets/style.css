@@ -1,0 +1,215 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    background-color: gold;
+    color:black;
+    text-shadow: 2px 2px lightgoldenrodyellow;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+    width: auto;
+}
+
+.header div {
+    float: right;
+    padding-top: 15px;
+    margin-right: 20px;
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+
+.procurement:hover {
+    background-color: lightyellow;
+}
+.procurement:active{
+    background-color: gainsboro;
+}
+.pm:hover {
+    background-color: lightyellow;
+}
+
+.resale:hover {
+    background-color: lightyellow;
+}
+
+.traditional:hover {
+    background-color: lightyellow;
+}
+
+
+.header div ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.header div ul li a {
+    text-decoration: none;
+}
+
+.main-photo {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 25px;
+    background-size: cover;
+    background-position: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+} 
+
+.motivation-bar {
+    width: 100%;
+    height: 35px;
+    position: fixed;
+    top: 325px;
+    right: 0px;
+    background-color: black;
+    color: white;
+    background: linear-gradient(141deg, gold 0%, rgb(224, 192, 6) 66%, white 85%);
+    text-align: center;
+    padding: 8px;
+}
+
+.footer-main-div{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background: black;
+    padding: 20px 0px;
+    clear: both;
+}
+
+.footer-social-icons{
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.footer-social-icons ul{
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.footer-social-icons ul li{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0px 10px;
+    border-radius: 100%;
+    background: white;
+}
+
+.footer-social-icons ul li a{
+    color: gold;
+    font-size: 25px;
+    display: block;
+}
+
+.footer-social-icons ul li a i{
+    line-height: 50px;
+}
+
+.footer-menu-one{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.footer-menu-one ul{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.footer-menu-one ul li{
+    display: inline-block;
+    margin: 0px 15px;
+}
+.footer-menu-one ul li a{
+    font-family: arial;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+}
+
+.footer-menu-one ul li a:hover{
+    color: grey;
+}
+
+.footer-menu-two{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.footer-menu-two ul{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.footer-menu-two ul li{
+    display: inline-block;
+    margin: 0px 15px;
+}
+.footer-menu-two ul li a{
+    font-family: arial;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+}
+
+.footer-menu-two ul li a:hover{
+    color: grey;
+}
+
+.footer-bottom{
+    width: 100%;
+    height: auto;
+    width: auto;
+    background: gold;
+    padding: 5px;
+    text-emphasis-color: white;
+}
+
+.footer-bottom p{
+    font-family: Arial;
+    font-size: 14px;
+    text-align: center;
+    color: black;
+    font-weight: 600;
+    letter-spacing: 1px;
+    }
+
+.footer-bottom p a{
+    font-family: Arial;
+    font-size: 14px;
+    text-align: center;
+    color: white;
+}
+
+.footer-bottom p a:hover{
+    color: grey;
+
+}
+
+
+
